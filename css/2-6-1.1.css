@@ -1,0 +1,15 @@
+body{
+	/*background-image:url(../img/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg);
+	background-position: center center;*/
+}
+p{
+	/*background-color: blue;*/
+	text-indent: 2em;
+}
+p.a111{
+	letter-spacing: 30px;	
+}
+p.b111{
+	text-decoration: underline;
+}
+
