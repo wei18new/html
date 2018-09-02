@@ -5,21 +5,79 @@
 		<title>百度一下,你就知道</title>
 		<style type="text/css">
 			a{
-				color:#00c;
+				color:black;
 				font-weight: 700;
     			line-height: 30px;
     			margin-left: 22px;
     			font-size: 12px;
-
+			}
+			a:hover{
+				color: deepskyblue;
 			}
 			#head{
 				position: absolute;
 				right: 0;
 			}
+			#a001{
+		        margin-right: 10px;
+				background-color: deepskyblue;
+				color: white;
+			}
+			#a001:hover{
+				background:white;
+				color: black;
+			}
+			#div002{
+				height: 100px;
+				text-align: center;
+				margin: 0px auto;
+			}
+			img{
+				display: block;
+				margin: 0px auto;
+			}
+			#button1{
+				border: none;
+				background: deepskyblue;
+				color: white;
+				height: 36px;
+				width: 100px;
+			}
+			#button1:hover{
+				background: dodgerblue;
+			}
+			input{
+				border: 1px solid black;
+				border-right: none;
+				padding: 0;
+				height: 34px;
+				width: 400px;
+			}
+			#div003{
+				text-align: center;
+			}
+			#div004{
+				display: inline-block;
+			}
+			#div005{
+				top: -1px;
+				position: relative;
+				display: inline-block;
+			}
+			#div006{
+				position: absolute;
+				display:inline-block;
+				height: 15px;
+				width: 15px;
+				background: deeppink;
+				right: 5px;
+				top:7px;
+				
+			}
 		</style>
 	</head>
 	<body>
-		<img src="img/baidu.png"  width: 270px; height: 129px;/>
+		<div id="div002">
 		<div id="head">
 			<a href="http://news.baidu.com">新闻</a>
 			<a href="http://www.hao123.com">hao123</a>
@@ -29,7 +87,20 @@
 			<a href="http://xueshu.baidu.com">学术</a>
 			<a href="https://passport.baidu.com">登录</a>
 			<a href="https://www.baidu.com">设置</a>
-			<a href="https://www.baidu.com/more/">更多产品</a>
+			<a id="a001" href="https://www.baidu.com/more/">更多产品</a>
+		</div>
+		</div>
+		<div id="div001">
+		<img src="img/baidu.png"/>
+		</div>
+		<div id="div003">
+			<div id="div004">
+			<div id="div005">
+				<input />
+				<div id="div006"></div>
+			</div><!--
+		 --><button id="button1">百度一下</button>
+			</div>
 		</div>
 	</body>
 </html>
