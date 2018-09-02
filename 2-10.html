@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8s">
+		<meta charset="utf-8">
 		<title>复习1</title>
 		<style type="text/css">
-			
+			img{
+				width: 100px;
+				height: 100px;
+				margin: 0px auto;
+			}
+			#div01{
+				background-color: red;
+				width: 300px;
+				text-align: center;
+				margin: 0px auto;
+			}
+			#div02{
+				position:absolute;
+				top:40px;
+				right: 0;
+					
+			}
+			h1{
+				background: blue;
+			}
+			#div03{
+				height: 80px;
+			}
+			a:hover{
+				color: red;
+			}
+			img:hover{
+				width: 150px;
+				height: 150px;
+			}
+			p span{
+				color: red;
+				text-decoration:underline;
+			}
+			#span1:hover{
+				text-decoration:none; 
+			}
+			#span2{
+				border-style:dashed;
+			}
 		</style>
 	</head>
 	<body>
+		<div id="div03">
+		<div id="div02">
+			<a href="http://www.baidu.com" target="_blank">baidu1</a>
+			<a href="http://www.baidu.com">baidu2</a>
+			<a href="http://www.baidu.com">baidu3</a>
+			<a href="http://www.baidu.com">baidu4</a>
+		</div>
+		</div>
 		<h1>HTML复习</h1>
-		<p>对于<span>HTML</span>的学习，我感受到了学习编程的魅力</p>
+		<p>对于<span id="span1">HTML</span>的学习，我<span id="span2">感受</span>到了学习编程的<span>魅力</span></p>
+		<div id="div01">
+			<img src="img/baidu.png">
+		</div>
 	</body>
 </html>
